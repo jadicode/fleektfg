@@ -1,0 +1,106 @@
+.dashboard{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.dashboard h1{
+    color: #1c1c1c;
+}
+
+.dashboard h1{
+    margin-bottom: 0.5%;
+}
+
+.dashboard_desc{
+    color: #1c1c1c;
+    margin-bottom: 2%;
+}
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% auto;
+}
+.panel_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.panel_option p:nth-child(1){
+    font-size: 20px;
+    margin-top: 20%;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.panel_option i{
+    font-size: 30px;
+    margin: 4% auto;
+}
+.panel_option .link_panel{
+    font-size: 18px;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: bold;
+    background-color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.panel_option:nth-child(1) .link_panel{
+    color: #c0392b;
+}
+.panel_option:nth-child(1) .link_panel:hover{
+    background-color: #c0392b;
+    color: #fff;
+}
+.panel_option:nth-child(2) .link_panel{
+    color: #2980b9;
+}
+.panel_option:nth-child(2) .link_panel:hover{
+    background-color: #2980b9;
+    color: #fff;
+}
+.panel_option:nth-child(3) .link_panel{
+    color: #16a085;
+}
+.panel_option:nth-child(3) .link_panel:hover{
+    background-color: #16a085;
+    color: #fff;
+}
+.panel_option:nth-child(1){
+    background-color: #c0392b;
+    border: 4px solid #e74c3c;
+}
+.panel_option:nth-child(1):hover{
+    background-color: #e74c3c;
+}
+.panel_option:nth-child(2){
+    background-color: #2980b9;
+    border: 4px solid #3498db;
+}
+.panel_option:nth-child(2):hover{
+    background-color: #3498db;
+}
+.panel_option:nth-child(3){
+    background-color: #16a085;
+    border: 4px solid #1abc9c;
+}
+.panel_option:nth-child(3):hover{
+    background-color: #1abc9c;
+}

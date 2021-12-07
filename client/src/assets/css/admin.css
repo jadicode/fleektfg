@@ -1,0 +1,151 @@
+/* ADMIN CSS STYLES */
+
+.adminpedidos{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 15px;
+}
+.adminpedidos h2{
+    margin-bottom: 0.5%;
+}
+.adminpedidos p{
+    margin-bottom: 2%;
+}
+.separador-pedidos{
+    color: rgba(255, 255, 255, 0.301);
+    margin-bottom: 2%;
+}
+.adminpedidos table{
+    width: 100%;
+    text-align: left;
+}
+.rojo{
+    color: #e74c3c;
+}
+
+.id{
+    color: #2c3e50;
+}
+
+.producto_comprado_admin{
+    color: #2ecc71;
+}
+
+.resaltar{
+    font-weight: bold;
+}
+
+.boton_eliminar{
+    background: unset;
+    border: 0px;
+    color: #e74c3c;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.boton_eliminar:hover{
+    color: #ee897d;
+}
+
+/* Subir Producto*/
+.subir_producto form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background-color: #fdfdfd;
+    padding: 1em;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.subir_producto form>h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.subir_producto form>label{
+    font-weight: bold;
+    color: #065182;
+    margin-bottom: 2%;
+}
+
+.subir_producto form>input{
+    padding: 0.5em;
+    color: #065182;
+    border-radius: 10px;
+    border: 2px solid #065182;
+    margin-bottom: 2%;
+}
+
+.subir_producto form>input:nth-child(5){
+    border: 0px;
+    color: #065182;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subir_producto form>input[type="submit"]{
+    margin-top: 3%;
+    border: 2px solid #065182;
+    background-color: #065182;
+    color: #fdfdfd;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.subir_producto form>input[type="submit"]:hover{
+    background-color: #fdfdfd;
+    color: #065182;
+}
+/*Listado Productos*/
+.img_filtered{
+    width: 60px;
+}
+
+.adminsearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.adminsearch i{
+    color: #065182;
+    margin-right: 10px;
+}
+
+.adminsearch input{
+    border: 0px;
+    width: 100%;
+}
+
+.admineliminar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.admineliminar input{
+    border: 0px;
+}
+
+.admineliminar button{
+    background-color: transparent;
+    border: 0;
+    color: #e74c3c;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.admineliminar button:hover{
+    color: #ee897d;
+}
